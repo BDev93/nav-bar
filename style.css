@@ -1,0 +1,13 @@
+body {
+    background-color: gray;
+}
+.nav {
+       display: flex;
+}
+.submenu{
+    display: none;
+}
+li:hover > .submenu{
+    display:block;
+    background-color: aquamarine;
+}
