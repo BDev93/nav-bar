@@ -1,13 +1,28 @@
 body {
     background-color: gray;
+    
 }
 .nav {
-       display: flex;
+    display: flex;
+    
+}
+.nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
 }
 .submenu{
     display: none;
+    /* position: absolute; */
+   
 }
 li:hover > .submenu{
     display:block;
     background-color: aquamarine;
+}
+
+li {
+    /* position: relative; */
+    
+    
 }
