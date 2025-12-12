@@ -4,20 +4,30 @@ body {
 }
 .nav {
     display: flex;
+    /* flex-direction: row; */
     
 }
-.nav ul {
+.nav ul{
     display: flex;
-    flex-direction: row;
+    
     gap: 25px;
 }
-.submenu{
+.submenu li{
     display: none;
     /* position: absolute; */
    
 }
-li:hover > .submenu{
+.submenu{
+    display:flex;
+    flex-direction: column;
+    
+}
+.main-menu{
+    display:flex;
+}
+li:hover > .submenu li{
     display:block;
+    gap:0;
     background-color: aquamarine;
 }
 
