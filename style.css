@@ -10,7 +10,7 @@ body {
 .nav ul{
     display: flex;
     
-    gap: 25px;
+    
 }
 .submenu li{
     display: none;
@@ -20,14 +20,19 @@ body {
 .submenu{
     display:flex;
     flex-direction: column;
+    border: 2px yellow solid;
+    padding: 0;
     
 }
 .main-menu{
     display:flex;
+    border: 2px red solid;
+    gap: 22px;
 }
 li:hover > .submenu li{
     display:block;
-    gap:0;
+    
+    margin:0;
     background-color: aquamarine;
 }
 
