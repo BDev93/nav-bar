@@ -1,43 +1,25 @@
-body {
-    background-color: gray;
-    
-}
-.nav {
-    display: flex;
-    /* flex-direction: row; */
-    
-}
-.nav ul{
-    display: flex;
-    
-    
-}
-.submenu li{
-    display: none;
-    /* position: absolute; */
-   
-}
-.submenu{
-    display:flex;
-    flex-direction: column;
-    border: 2px yellow solid;
+body{
     padding: 0;
-    
-}
-.main-menu{
-    display:flex;
-    border: 2px red solid;
-    gap: 22px;
-}
-li:hover > .submenu li{
-    display:block;
-    
     margin:0;
-    background-color: aquamarine;
+}
+li{
+    background-color: green;
+    
+    text-align: center;
+    list-style-type: none;
+    
 }
 
-li {
-    /* position: relative; */
+li:hover {
+    background-color: #52e052;
     
-    
+}
+.sklep{
+    display:none;
+    padding: 0;
+    margin: 0;
+}
+
+li:hover .sklep{
+    display: block;
 }
