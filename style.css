@@ -18,8 +18,15 @@ li:hover {
     display:none;
     padding: 0;
     margin: 0;
+    
 }
 
 li:hover .sklep{
     display: block;
+    
+}
+
+.sklep-li {
+    background-color: rgb(51, 122, 51);;
+    color: aliceblue;
 }
